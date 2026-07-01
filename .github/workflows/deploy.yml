@@ -9,17 +9,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 9
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: pnpm install
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build
         working-directory: artifacts/Client
-      - run: pnpm build
-        working-directory: artifacts/Client
-      - uses: peaceiris/actions-gh-pages@v3
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: artifacts/Client/dist
