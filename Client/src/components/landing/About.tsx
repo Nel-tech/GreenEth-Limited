@@ -65,7 +65,7 @@ function About() {
                         </div>
 
                         <div className="grid grid-cols-2 gap-8 border-t border-gray-200 pt-8 md:grid-cols-3">
-                            <Counter end={8} label="Years Experience" />
+                            <Counter end={5} label="Years Experience" />
                             <Counter end={5} label="Farmers Served" />
                             <Counter end={2} label="Acres of FarmLand acquired" />
                         </div>
