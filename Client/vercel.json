@@ -1,14 +1,11 @@
 {
-  "buildCommand": "vite build",
+  "buildCommand": "pnpm install --ignore-workspace && vite build",
   "outputDirectory": "dist",
-  "installCommand": "pnpm install",
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "build": {
-    "env": {
-      "NODE_VERSION": "20"
-    }
+  "engines": {
+    "node": "20.x"
   }
 }
