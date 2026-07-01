@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -148,9 +148,10 @@ html {
   --chart-4: 40 25% 96%;
   --chart-5: 0 84% 60%;
 
-  --app-font-sans: 'Inter', sans-serif;
-  --app-font-serif: 'Playfair Display', serif;
-  --app-font-mono: Menlo, monospace;
+  
+  --app-font-sans: "Poppins", sans-serif;
+  --app-font-serif: "Poppins", sans-serif;
+  --app-font-mono: Menlo, Monaco, Consolas, monospace;
   --radius: .5rem;
 
   --shadow-2xs: 0px 2px 0px 0px hsl(140 47% 14% / 0.05);
