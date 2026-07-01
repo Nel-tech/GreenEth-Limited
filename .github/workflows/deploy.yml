@@ -20,14 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --ignore-workspace
-        working-directory: artifacts/Client
+        working-directory: Client
 
       - name: Build
         run: pnpm build
-        working-directory: artifacts/Client
+        working-directory: Client
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: artifacts/Client/dist
+          publish_dir: Client/dist
