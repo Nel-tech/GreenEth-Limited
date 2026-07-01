@@ -42,7 +42,7 @@ function About() {
                         </h2>
 
                         <p className="mb-8 text-lg leading-relaxed text-gray-600">
-                            Greenth Limited powers modern agriculture through production, intelligence, market access, advisory, nd global trade. We help businessess, farmers, investors,and institutions make smarter decisions, unlock new opportunites, and build sustainable agricultural wealth
+                            Greenth Limited powers modern agriculture through production, intelligence, market access, advisory, and global trade. We help businessess, farmers, investors,and institutions make smarter decisions, unlock new opportunites, and build sustainable agricultural wealth
                         </p>
 
                         <div className="mb-12 flex flex-wrap gap-3">
