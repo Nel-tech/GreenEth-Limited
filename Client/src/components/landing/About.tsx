@@ -42,13 +42,7 @@ function About() {
                         </h2>
 
                         <p className="mb-8 text-lg leading-relaxed text-gray-600">
-                            Since 2010, AgroNigeria Allied Services has stood at the
-                            intersection of local farming excellence and global market
-                            demands. We partner with local farmers to elevate crop yields
-                            while managing a robust supply chain that delivers Nigeria&apos;s
-                            finest produce to over twenty countries worldwide. Our commitment
-                            is rooted in enriching the land, empowering the people, and
-                            delivering uncompromised quality.
+                            Greenth Limited powers modern agriculture through production, intelligence, market access, advisory, nd global trade. We help businessess, farmers, investors,and institutions make smarter decisions, unlock new opportunites, and build sustainable agricultural wealth
                         </p>
 
                         <div className="mb-12 flex flex-wrap gap-3">
@@ -62,7 +56,7 @@ function About() {
                     px-5 py-2
                     text-sm
                     font-semibold
-                    text-[#F4B000]
+                    text-[#00000]
                   "
                                 >
                                     {pill}
@@ -71,9 +65,9 @@ function About() {
                         </div>
 
                         <div className="grid grid-cols-2 gap-8 border-t border-gray-200 pt-8 md:grid-cols-3">
-                            <Counter end={10} label="Years Experience" />
-                            <Counter end={500} label="Farmers Served" />
-                            <Counter end={20} label="Export Destinations" />
+                            <Counter end={8} label="Years Experience" />
+                            <Counter end={5} label="Farmers Served" />
+                            <Counter end={2} label="Acres of FarmLand acquired" />
                         </div>
                     </motion.div>
                 </div>

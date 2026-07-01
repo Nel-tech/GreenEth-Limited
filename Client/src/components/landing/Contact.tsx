@@ -53,50 +53,51 @@ export default function Contact() {
 
                     {/* Left Info */}
                     <div className="w-full lg:w-5/12 text-white">
-                        <span className="text-[#C8922A] text-sm font-bold uppercase tracking-[0.2em]">Get In Touch</span>
+                        <span className="text-[#F4B000] text-sm font-bold uppercase tracking-[0.2em]">Get In Touch</span>
                         <h2 className="font-serif text-4xl md:text-5xl mt-4 mb-8 font-bold">Let's Work Together</h2>
 
                         <div className="space-y-8 mb-12">
                             <div className="flex items-start gap-4">
-                                <MdPhone size={24} className="text-[#C8922A] mt-1 shrink-0" />
+                                <MdPhone size={24} className="text-[#F4B000] mt-1 shrink-0" />
                                 <div>
                                     <h4 className="font-bold text-lg mb-1">Phone</h4>
-                                    <p className="text-white/80">+234 (0) 800 AGRONIG</p>
+                                    <p className="text-white/80">+234 813 223 8080</p>
                                 </div>
                             </div>
 
                             <div className="flex items-start gap-4">
-                                <MdEmail size={24} className="text-[#C8922A] mt-1 shrink-0" />
+                                <MdEmail size={24} className="text-[#F4B000] mt-1 shrink-0" />
                                 <div>
                                     <h4 className="font-bold text-lg mb-1">Email</h4>
                                     <p className="text-white/80">info@agronigeriaallied.com</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-4">
-                                <MdLocationOn size={24} className="text-[#C8922A] mt-1 shrink-0" />
+                            {/* <div className="flex items-start gap-4">
+                                <MdLocationOn size={24} className="text-[#F4B000] mt-1 shrink-0" />
                                 <div>
                                     <h4 className="font-bold text-lg mb-1">Address</h4>
                                     <p className="text-white/80">12 Agricultural Plaza, Abuja FCT, Nigeria</p>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="flex items-start gap-4">
-                                <FaWhatsapp size={24} className="text-[#C8922A] mt-1 shrink-0" />
+                            {/* <div className="flex items-start gap-4">
+                                <FaWhatsapp size={24} className="text-[#F4B000] mt-1 shrink-0" />
                                 <div>
                                     <h4 className="font-bold text-lg mb-1">WhatsApp</h4>
                                     <a href="https://wa.me/2348001234567" target="_blank" rel="noreferrer" className="inline-block bg-[#25D366] text-white text-sm font-bold px-4 py-2 rounded-full mt-2 hover:bg-[#20bd5a] transition-colors">
                                         Chat on WhatsApp
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C8922A] hover:text-white transition-colors">
+                            <a href="https://www.facebook.com/share/1an4nKy1Uf/" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C8922A] hover:text-white transition-colors">
                                 <FaFacebook size={18} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C8922A] hover:text-white transition-colors">
+                            <a href="https://www.instagram.com/greeneth_limited?igsh=MXhiajJxbjQ2NHlqOA==
+" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C8922A] hover:text-white transition-colors">
                                 <FaInstagram size={18} />
                             </a>
                             <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C8922A] hover:text-white transition-colors">
@@ -199,7 +200,7 @@ export default function Contact() {
                                         )}
                                     />
 
-                                    <Button type="submit" size="lg" className="w-full bg-[#C8922A] text-white hover:bg-[#A67822] rounded-none h-14 text-base font-bold uppercase tracking-wider">
+                                    <Button type="submit" size="lg" className="w-full bg-[#F4B000] text-black hover:bg-[#A67822] rounded-none h-14 text-base font-bold uppercase tracking-wider">
                                         Send Inquiry
                                     </Button>
                                 </form>

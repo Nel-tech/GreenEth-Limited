@@ -47,7 +47,7 @@ export default function Counter({
                 {count}+
             </span>
 
-            <span className="mt-2 font-medium text-[#F4B000]">
+            <span className="mt-2 font-medium text-[#00000]">
                 {label}
             </span>
         </div>

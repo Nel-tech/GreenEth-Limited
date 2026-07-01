@@ -8,8 +8,8 @@ function Products() {
         <section id="products" className="py-24 md:py-32 bg-[#F7F5EF]">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <span className="text-[#C8922A] text-sm font-bold uppercase tracking-[0.2em]">What We Offer</span>
-                    <h2 className="font-serif text-4xl md:text-5xl text-[#1B4D2E] mt-4 font-bold">Our Products</h2>
+                    <span className="text-[#F4B000] text-sm font-bold uppercase tracking-[0.2em]">What We Offer</span>
+                    <h2 className="font-serif text-4xl md:text-5xl text-[#00D084] mt-4 font-bold">Our Products</h2>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
