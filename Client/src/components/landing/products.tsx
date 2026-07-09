@@ -32,9 +32,11 @@ function Products() {
                             <div className="p-6 flex flex-col flex-grow">
                                 <h3 className="font-serif text-xl font-bold text-[#1B4D2E] mb-3">{prod.title}</h3>
                                 <p className="text-gray-600 mb-6 flex-grow">{prod.desc}</p>
-                                <Button variant="outline" className="w-full text-[#C8922A] border-[#C8922A] hover:bg-[#C8922A] hover:text-white rounded-none">
+                                <a href={`/advisory?product=${encodeURIComponent(prod.title)}`}>
+                                <Button variant="outline" className="w-full text-[#C8922A] border-[#C8922A] hover:bg-[#C8922A] hover:text-white rounded-none cursor-pointer">
                                     Request Quote
                                 </Button>
+                                </a>
                             </div>
                         </motion.div>
                     ))}
