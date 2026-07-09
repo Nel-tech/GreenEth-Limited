@@ -212,7 +212,7 @@ export default function Contact() {
             </div>
 
             {/* Map */}
-            <div className="w-full h-[350px] border-t-4 border-[#C8922A]">
+            {/* <div className="w-full h-[350px] border-t-4 border-[#C8922A]">
                 <iframe
                     src="https://maps.google.com/maps?q=Abuja%2C%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     width="100%"
@@ -222,7 +222,7 @@ export default function Contact() {
                     loading="lazy"
                     title="Location Map"
                 />
-            </div>
+            </div> */}
         </section>
     );
 }
