@@ -4,13 +4,14 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Landing from "@/pages/Landing";
-
+import Advisory from "@/pages/Advisory";
 const queryClient = new QueryClient();
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Landing} />
+      <Route path="/advisory" component={Advisory} />
       <Route component={NotFound} />
     </Switch>
   );

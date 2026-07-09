@@ -55,4 +55,33 @@ export const products = [
         desc: "End-to-end land acquisition services, including land sourcing, verification, documentation, and advisory support for agricultural investments.",
         img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&q=80",
     },
+
+   
+]
+
+export const NIGERIAN_STATES = [
+    "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno",
+    "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "FCT", "Gombe", "Imo",
+    "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa",
+    "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba",
+    "Yobe", "Zamfara",
 ];
+
+export const NEEDS = [
+    { id: "what_to_plant", label: "What to Plant" },
+    { id: "when_to_plant", label: "When to Plant" },
+    { id: "weather_forecast", label: "Weather Forecast" },
+    { id: "buyers_and_prices", label: "Who is Buying & at What Price" },
+    { id: "transporter_contacts", label: "Transporter Contacts" },
+    { id: "feed_mill_contacts", label: "Feed Mill Contacts" },
+    { id: "pest_control", label: "Pest & Disease Control" },
+    { id: "market_prices", label: "Market Price Updates" },
+    { id: "policy_info", label: "Government Policy & Loan Schemes" },
+];
+
+export const SEASONS = [
+    "First Rainy Season (Mar – Jun)",
+    "Second Rainy Season (Aug – Nov)",
+    "Dry Season / Irrigation (Nov – Feb)",
+];
+
